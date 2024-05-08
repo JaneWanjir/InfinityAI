@@ -23,17 +23,17 @@
 },
     "ALWAYS_ONLINE": {
   "description": "Enable always online feature",
-  "required": false,
+  "required": true,
   "value": "TRUE"
 },
 "AUTOVIEW_STATUS": {
   "description": "Enable auto status viewing feature",
-  "required": false,
+  "required": true,
   "value": "TRUE"
 },
     "WA_PRESENCE": {
-  "description": "Put value as recording if you want bot to be recording all times and typing for typing",
-  "required": false,
+  "description": "Put value as recording if you want bot to be recording all times and typing for typing"
+  "required": true,
   "value": "recording"
 },
     "MONGO_DB": {
@@ -59,7 +59,7 @@
 "OWNER": {
   "description": "Type the numbers you will like to be Owners,Separate with a comma.",
   "required": false,
-  "value": "254798242085"
+  "value": "254784396123"
 }
   },
   "buildpacks": [
